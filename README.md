@@ -6,7 +6,13 @@
 This problem is aimed to predict the position of three different bodies of mass (in this case the Sun, Earth, and Jupiter) given an initial and final time. While we do have equations to fully predict the motion of two gravitating masses, analytical tools fall short when facing more populated syestems. It is not possible to derive a general formula for three or more gravitating objects due to the amount of unknown variables an n-body system contains.
 
 ## Physics / Math Background
-Short description of the physical system or theory involved.
+The three-body problem in physics involves predicting the motion of three point masses interacting solely through mutual gravitational forces, governed by Newton's law of universal gravitation and his laws of motion.
+$$ F = G \frac{m_1 m_2}{r^2} $$
+While the two-body problem has a clean, closed-form analytical solution (elliptical, parabolic, or hyperbolic orbits), the three-body case leads to a system of coupled nonlinear differential equations with no general closed-form solution in terms of elementary functions.
+The motion is generally chaotic, exhibiting extreme sensitivity to initial conditions, meaning tiny differences in starting positions or velocities can produce wildly divergent future trajectories.
+Special restricted cases (like one negligible mass or particular symmetric configurations) do have exact solutions, but the general problem requires numerical integration for practical predictions.
+
+
 
 ## Methods
 - We begin by importing the packages needed for this simulation. I used math, numpy, and pylab. Forces between each body involved are defined and broken up into sin and cos components. Velocity and acceleration are also defined in order to be used for out ODE solvers.
