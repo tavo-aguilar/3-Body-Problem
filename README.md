@@ -28,10 +28,5 @@ Short description of the physical system or theory involved.
 
 ## How to Run
 
-- In order to run the code, numpy and matplotlib must be installed into the python IDE you are using. The code can be cloned into an editor and ran directly after packages are installed. Code given in the main script will produce an output for 12 years and Jupiter having 500x it's original mass. Modifications include the initial time, final time, and the mass factor amount for Jupiter (initially set to 500). Line
-1. Clone the repository
-2. Install dependencies
-3. Run the main script
-
-## Example Output
-(Optional: include a plot or screenshot)
+- In order to run the code, numpy and matplotlib must be installed into the python IDE you are using. The code can be cloned into an editor and ran directly after packages are installed. Code given in the main script will produce an output for 12 years and Jupiter having 500x it's original mass.
+  Modifications include the initial time, final time, and the mass factor amount for Jupiter (initially set to 500). Lines 152 and 153 define the initial and final time. Line 149 defines the mass factor of Jupiter, with 1 being the stnadard mass of Jupiter. 
