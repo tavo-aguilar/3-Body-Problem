@@ -21,10 +21,7 @@ Short description of the physical system or theory involved.
   <img width="637" height="475" alt="Screenshot 2026-01-14 at 5 37 08 PM" src="https://github.com/user-attachments/assets/4c6e43ab-95fc-47b9-80c9-49119f2468c0" />
 
   
-What the code produces:
-- Plots
-- Simulations
-- Key findings
+- With this result, we can see that the earth still stays in orbit around the sun. The path taken is different than from one than  
 
 ## How to Run
 1. Clone the repository
