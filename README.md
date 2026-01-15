@@ -7,7 +7,10 @@ This problem is aimed to predict the position of three different bodies of mass 
 
 ## Physics / Math Background
 The three-body problem in physics involves predicting the motion of three point masses interacting solely through mutual gravitational forces, governed by Newton's law of universal gravitation and his laws of motion.
+Newton's law of universal gravitation states:
+
 $$ F = G \frac{m_1 m_2}{r^2} $$
+
 While the two-body problem has a clean, closed-form analytical solution (elliptical, parabolic, or hyperbolic orbits), the three-body case leads to a system of coupled nonlinear differential equations with no general closed-form solution in terms of elementary functions.
 The motion is generally chaotic, exhibiting extreme sensitivity to initial conditions, meaning tiny differences in starting positions or velocities can produce wildly divergent future trajectories.
 Special restricted cases (like one negligible mass or particular symmetric configurations) do have exact solutions, but the general problem requires numerical integration for practical predictions.
