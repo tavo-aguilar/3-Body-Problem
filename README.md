@@ -16,14 +16,19 @@ Short description of the physical system or theory involved.
 
 
 ## Results
-- An example output for this code is given below. The initial conditions of the simulations included a initial time of zero and a final time of 12 years with Jupiter having 500x it's original mass.
+- An example output for this code is given below. The initial conditions of the simulations included a initial time of zero and a final time of 12 years with Jupiter having 500x it's original mass:
 
   <img width="637" height="475" alt="Screenshot 2026-01-14 at 5 37 08 PM" src="https://github.com/user-attachments/assets/4c6e43ab-95fc-47b9-80c9-49119f2468c0" />
 
   
-- With this result, we can see that the earth still stays in orbit around the sun. The path taken is different than from one than  
+- With this result, we can see that the earth still stays in orbit around the sun. The path taken is different than from one with the normal mass of Jupitr shown by the following result:
+
+  <img width="638" height="474" alt="Screenshot 2026-01-15 at 1 05 57 PM" src="https://github.com/user-attachments/assets/33b000b7-6b7f-4283-aac1-5ef55f2b4320" />
+
 
 ## How to Run
+
+- In order to run the code, numpy and matplotlib must be installed into the python IDE you are using. The code can be cloned into an editor and ran directly after packages are installed. Code given in the main script will produce an output for 12 years and Jupiter having 500x it's original mass. Modifications include the initial time, final time, and the mass factor amount for Jupiter (initially set to 500). Line
 1. Clone the repository
 2. Install dependencies
 3. Run the main script
